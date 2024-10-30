@@ -1,5 +1,6 @@
 #!/bin/sh
 
-cp -rf /usr/share/calamares /etc
+cd /etc
+mv cutefish_config calamares
 
 exit 0
