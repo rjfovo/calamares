@@ -42,7 +42,7 @@ Homepage: https://github.com/calamares/calamares
 Package: cutefish-calamares
 Architecture: linux-any
 Depends: os-prober, ${misc:Depends}, ${shlibs:Depends}
-Recommends: btrfs-progs, squashfs-tools, grub-efi-amd64 | grub-pc
+Recommends: btrfs-progs, squashfs-tools, grub-efi-amd64 | grub-pc, calamares-settings
 Description: distribution-independent installer framework
  Calamares is a distribution-independent installer framework.
  .
